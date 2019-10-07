@@ -1,0 +1,11 @@
+namespace: invaders
+
+resources:
+  - deployment.yaml
+  - namespace.yaml
+  - role-binding.yaml
+  - role.yaml
+  - service-account.yaml
+
+commonLabels:
+  app: invaders
